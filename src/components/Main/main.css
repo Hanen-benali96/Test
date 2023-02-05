@@ -1,0 +1,225 @@
+.btns{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    border: rgb(147, 140, 140);
+padding: 50px;
+    
+}
+.adult{
+    margin-left: 10px;
+    width: 206px;
+    height:50px ;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    color:ghostwhite;
+    text-align: center;
+    letter-spacing: normal;
+    background: red;
+}
+.dad{
+    margin-left: 10px;
+    width: 206px;
+    height:50px ;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    color:ghostwhite;
+    text-align: center;
+    letter-spacing: normal;
+    background: rgb(248, 160, 88);
+}
+.christ{
+    margin-left: 20px;
+    width: 200px;
+    height:50px ;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    color:rgb(241, 241, 243);
+    text-align: center;
+    letter-spacing: normal;
+    background: rgb(241, 190, 95);
+}
+.job{
+    margin-left: 20px;
+    width: 200px;
+    height:50px ;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    color:rgb(138, 138, 144);
+    text-align: center;
+    letter-spacing: normal;
+    background: rgb(237, 207, 72); 
+}
+.birthday{
+    margin-left: 20px;
+    width: 200px;
+    height:50px ;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    color:rgb(224, 224, 226);
+    text-align: center;
+    letter-spacing: normal;
+    background: rgb(39, 192, 74);
+}
+.social{
+    margin-left: 20px;
+    width: 200px;
+    height:50px ;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    color:rgb(224, 224, 226);
+    text-align: center;
+    letter-spacing: normal;
+    background: rgb(71, 220, 178); 
+}
+.puns{
+    width: 200px;
+    margin-left: 10px;
+    height:50px ;
+    margin-left: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    color:rgb(224, 224, 226);
+    text-align: center;
+    letter-spacing: normal;
+    background: rgb(52, 201, 227); 
+
+}
+.view{
+    width: 206px;
+    height:50px ;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    color:rgb(174, 143, 143);
+    text-align: center;
+    letter-spacing: normal;
+    background: rgb(240, 244, 242); 
+
+    
+}
+.joke{
+    display: flex;
+    align-self: start;
+    padding-top: 30px;
+    margin-left: 50px;
+    color: rgb(36, 142, 73);
+    border: gray;
+    border-radius: 6%;
+    }
+    .card-1{
+        display: flex;
+        margin-right: 90px;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 60px;
+
+    }
+    .lawyer-joke{
+        width: 206px;
+        height: 20px;
+        margin: 0 0 6px 8px;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+         line-height: 1.25;
+         letter-spacing: normal;
+         color: #303030;
+       }
+       .doctor-joke{
+         width: 206px;
+         height: 20px;
+         margin: 0 0 6px 8px;
+         font-family: Montserrat;
+         font-size: 16px;
+         font-weight: 600;
+         font-style: normal;
+         font-stretch: normal;
+          line-height: 1.25;
+          letter-spacing: normal;
+          color: #303030;
+       }
+       .A-lawer-dies-and-go{
+       width: 328px;
+       height: 154px;
+       margin: 6px  0 32px;
+       font-family: Montserrat;
+       font-size:14px;
+       font-weight: normal;
+       font-style: normal;
+       font-stretch: normal;
+       line-height: 1.57;
+       letter-spacing: normal;
+       color: #303030;
+       }
+       .never-had{
+         width: 328px;
+       height: 154px;
+       margin: 6px  0 32px;
+       font-family: Montserrat;
+       font-size:14px;
+       font-weight: normal;
+       font-style: normal;
+       font-stretch: normal;
+       line-height: 1.57;
+       letter-spacing: normal;
+       color: #303030;
+       }
+       
+       
+       .see-stats{
+         color:rgb(191, 141, 76);
+          
+          margin-left: 150px;
+       
+       }
+
+       .views {
+    padding-top: 42px;
+        color: rgb(175, 138, 91);
+          border: #3a3a3a;
+        width: 260px;
+       
+         }
+        .categorie{
+            
+            width: 200px;
+            margin-left: 10px;
+            height:50px ;
+            margin-left: 50px;
+            font-size: 14px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.43;
+            color:rgb(91, 91, 160);
+            text-align: center;
+            letter-spacing: normal;
+        }

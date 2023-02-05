@@ -1,0 +1,20 @@
+
+.navbar-nav{
+display: flex;
+justify-content: center;
+color: antiquewhite;
+margin-left: 800px;
+}
+.nav-item{
+
+width: 18px;
+height: 19px;
+margin: 4px 64px 21px 31px;
+font-family: Montserrat;
+font-size:15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: normal;
+color: white;
+}

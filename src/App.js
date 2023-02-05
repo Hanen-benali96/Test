@@ -1,24 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import axios from 'axios';
+import {useEffect,useState} from 'react'
+import  Navbar from './components/Nabar/Nabar'
+import Home from './components/Home/Home';
+import Footer from './components/Footer/Footer';
+import Main from './components/Main/Main';
+
+import { Routes ,Route } from 'react-router-dom';
+
 
 function App() {
+  const [ searchName, setSearchName] = useState("")
+  const [jokes,setJokes]=useState([])
+useEffect(()=>{
+axios.get("https://api.chucknorris.io/jokes/categories")
+.then(res=>setJokes(res.data))
+.catch(err=>console.log(err))
+},[]) 
+console.log(jokes)
   return (
+  
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      
+    <Home/>
+    
+       <Main jokes={jokes} />
+      <Footer/>
+     
+    
+   
+        
     </div>
+   
   );
 }
 

@@ -1,0 +1,20 @@
+.footer{
+    background: url('../../assets/img2.png');
+    height: 190px;
+}
+.got-joke{
+    display: flex;
+    margin-left: 90px;
+    padding-top: 40px;
+    color: antiquewhite;
+}
+.submit{
+    display: flex;
+    padding-top: 10px;
+    margin-left: 90px;
+    color: rgb(234, 189, 110);
+   
+}
+.flech{
+    margin-left: 10px;
+}

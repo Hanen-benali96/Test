@@ -1,0 +1,35 @@
+.home{
+    background: url(../../assets/bitmap2.png);
+    width: 1495px;
+    height: 350px;
+}
+
+.homeTitle{
+padding-top: 10px;
+display: block;
+    padding-top: 50px;
+    font-family: Montserrat;
+  color: rgb(215, 188, 123);
+  position: relative;
+  margin-bottom: 3rem;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.smallText{
+  
+    color: rgb(237, 236, 235);
+}
+.search{
+  
+    display: flex;
+   margin:  110px 400px ;
+    width: 500px;
+
+}
+
+
+
+
+
