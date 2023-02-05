@@ -4,7 +4,7 @@ import search  from '../../assets/search.png'
 import {Button,Form} from 'react-bootstrap'
 import './home.css'
 
-function Home() {
+function Home({titleSearch}) {
   return (
     <section className='home'>
     <div className='overlay'></div>

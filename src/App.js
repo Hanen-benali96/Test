@@ -23,7 +23,7 @@ console.log(jokes)
     <div className="App">
       <Navbar/>
       
-    <Home/>
+    <Home />
     
        <Main jokes={jokes} />
       <Footer/>
