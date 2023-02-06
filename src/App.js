@@ -5,27 +5,32 @@ import  Navbar from './components/Nabar/Nabar'
 import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
 import Main from './components/Main/Main';
-
+import { useParams } from 'react-router-dom';
 import { Routes ,Route } from 'react-router-dom';
+import Categories from './components/categorie/Jokes';
+import Jokes from './components/categorie/Jokes';
 
 
 function App() {
-  const [ searchName, setSearchName] = useState("")
-  const [jokes,setJokes]=useState([])
-useEffect(()=>{
-axios.get("https://api.chucknorris.io/jokes/categories")
-.then(res=>setJokes(res.data))
-.catch(err=>console.log(err))
-},[]) 
-console.log(jokes)
+  const [categories,setCategories]=useState([])
+  useEffect(()=>{
+  axios.get("https://api.chucknorris.io/jokes/categories")
+  .then(res=>setCategories(res.data))
+  .catch(err=>console.log(err))
+  },[]) 
+  console.log(categories)
+
   return (
   
     <div className="App">
       <Navbar/>
       
     <Home />
-    
-       <Main jokes={jokes} />
+    <Routes>
+       <Route path='/' element={<Main categories={categories}  />}  />
+       
+       <Route path= '/jokes' element={<Jokes />} />
+       </Routes>
       <Footer/>
      
     

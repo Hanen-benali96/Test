@@ -5,7 +5,10 @@ import flesh from '../../assets/flesh.png'
 import zigzag from '../../assets/zigzag.png'
 import  {Card} from 'react-bootstrap'
 import { Dropdown,DropdownButton, ButtonGroup } from 'react-bootstrap'
-function Main({jokes}) {
+import { NavLink, useParams } from 'react-router-dom'
+
+function Main({categories}) {
+
   return (
     <section>
     <div className='btns'>
@@ -19,15 +22,16 @@ function Main({jokes}) {
     <div className='btn' >
     <button className='social'>SOCIAL JOKES</button> 
     <button className='puns'>PUNS JOKES</button>
-
+ 
    <ButtonGroup className='view'>
    <DropdownButton as={ButtonGroup} title="VIEW ALL" id="bg-nested-dropdown" className='view'>
-       { jokes.map(joke=><Dropdown.Item eventKey="1">
-           {joke} 
+       {categories .map(categorie=><Dropdown.Item eventKey="1">
+           {categorie}
         </Dropdown.Item>)}
     
       </DropdownButton>
       </ButtonGroup>
+      
     </div>
     </div>
      <div>
