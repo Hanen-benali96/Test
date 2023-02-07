@@ -7,18 +7,13 @@ import Footer from './components/Footer/Footer';
 import Main from './components/Main/Main';
 import { useParams } from 'react-router-dom';
 import { Routes ,Route } from 'react-router-dom';
-import Categories from './components/categorie/Jokes';
-import Jokes from './components/categorie/Jokes';
+import Jokes from './components/jokes/Jokes';
+import Social from './components/social/Social';
+import Types from './components/Types/Types';
 
 
 function App() {
-  const [categories,setCategories]=useState([])
-  useEffect(()=>{
-  axios.get("https://api.chucknorris.io/jokes/categories")
-  .then(res=>setCategories(res.data))
-  .catch(err=>console.log(err))
-  },[]) 
-  console.log(categories)
+  
 
   return (
   
@@ -27,9 +22,11 @@ function App() {
       
     <Home />
     <Routes>
-       <Route path='/' element={<Main categories={categories}  />}  />
+       <Route path='/' element={<Main   />}  />
+       <Route path= '/types' element={<Types/>} />
+       <Route path={`/jokes/:cat`} element={<Jokes />} />
+       <Route path= 'social' element={<Social/>} />
        
-       <Route path= '/jokes' element={<Jokes />} />
        </Routes>
       <Footer/>
      

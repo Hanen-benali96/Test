@@ -1,11 +1,11 @@
 import React from 'react'
 import { Button, Card } from 'react-bootstrap'
-import './jokes.css'
+import './social.css'
 import hand  from '../../assets/hand.png'
 import hand1 from '../../assets/hand1.png'
 import arrow1 from '../../assets/arrow1.png'
 import arrow from '../../assets/arrow.png'
-function Jokes() {
+function Social() {
   return (
      <section>
       <div>
@@ -39,4 +39,4 @@ function Jokes() {
   )
 }
 
-export default Jokes
+export default Social

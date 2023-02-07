@@ -8,7 +8,7 @@ function Nabar() {
         <Container className='navbar-nav'>
           
           <Nav className="me-auto">
-            <Nav.Link href="#home">SO FUNKTIONIERT'S</Nav.Link>
+            <Nav.Link href="#">SO FUNKTIONIERT'S</Nav.Link>
             <Nav.Link href="#features">SONDERANGEBOTE</Nav.Link>
             <NavDropdown title="MEIN BERIECH"  id="collasible-nav-dropdown" >
               <NavDropdown.Item href="#action/3.1">My published jokes</NavDropdown.Item>
